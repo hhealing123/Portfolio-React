@@ -1,0 +1,27 @@
+{
+  "name": "week-20-assignment",
+  "description": "Portfolio using React",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhealing123/Portfolio-React-.git"
+  },
+  "author": "Harvey Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hhealing123/Portfolio-React-/issues"
+  },
+  "homepage": "https://github.com/hhealing123/Portfolio-React-#readme"
+}
