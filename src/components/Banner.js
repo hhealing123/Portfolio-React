@@ -12,7 +12,7 @@ export const Banner = () => {
     const [state, setState] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
     const toRotate = ["Full Stack Web Developer", "Web Designer", "Data Engineer"];
-    const period = 1700;
+    const period = 1000;
 
     useEffect(() => {
         let trigger = setInterval(() => {
