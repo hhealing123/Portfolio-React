@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headshot from "../assets/img/headshot";
-import { IoShareSocial } from 'react-bootstrap-icons';
+import headerImg from "../assets/img/world.svg";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const [text, setText] =useState('');
+    const [text, setText] = useState('');
     const [state, setState] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
     const toRotate = ["Full Stack Web Developer", "Web Designer", "Data Engineer"];
@@ -56,7 +56,7 @@ export const Banner = () => {
                                 <span className="tagline">Coding Is Fun!</span>
                                 <h1>{`Hi There, I'm Harvey Lee`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Developer", "Web Designer", "Data Engineer" ]'><span className="wrap">{text}</span></span></h1>
                                     <p>Greetings, Young open-minded with passion and critical mind. Gathering information and analyzing data bring me joy and enthusiasm as it leads to an efficient and informed decisions. Communicating and learning new materials give vitality to my quality. Working as Define Contribution Compliance & Documentation Associate at Charles Schwab; my primary job functions are: perform earnings calculation, prepare client letters for both internal and external errors, and prepare corrections for various retirement plans. Proficient in using Microsoft Excel/Acess, SQL, JavaScript, SQL, Node.js, React.js, JSON, and more!</p>
-                                    <button onClick={() => console.log('connect')}>Let's Connect! <IoShareSocial size={20} /></button>
+                                    <button onClick={() => console.log('connect')}>Let's Connect! <ArrowRightCircle size={20} /></button>
                         </div>}
                         </TrackVisibility>
                     </Col>
