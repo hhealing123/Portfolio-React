@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/headshot.jpg';
 import navIconHome from '../assets/img/nav-home-icon.svg';
 import navIconProjects from '../assets/img/nav-projects-icon.svg';
 import navIconResume from '../assets/img/nav-resume-icon.svg';
-import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
@@ -34,9 +32,6 @@ export const NavBar = () => {
         <Router>
             <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <img src={logo} alt="Logo" />
-                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span className="navbar-toggler-icon"></span>
                     </Navbar.Toggle>
@@ -51,10 +46,7 @@ export const NavBar = () => {
                                 <a href="#home"><img src={navIconHome} alt="Home Icon" /></a>
                                 <a href="#projects"><img src={navIconProjects} alt="Projects Icon" /></a>
                                 <a href="#resume"><img src={navIconResume} alt="Resume Icon" /></a>
-                            </div>
-                            <HashLink to='#connect'>
-                                <button className="vvd"><span>Let’s Connect</span></button>
-                            </HashLink>
+                            </div>  
                         </span>
                     </Navbar.Collapse>
                 </Container>
