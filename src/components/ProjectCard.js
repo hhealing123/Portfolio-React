@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({ title, description, imgUrl, gitHub, deployedLink }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -8,6 +8,10 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
+          <br />
+          <a href={gitHub}>Github Repository</a>
+          <br />
+          <a href={deployedLink}>Deployed Application Link</a>
         </div>
       </div>
     </Col>
