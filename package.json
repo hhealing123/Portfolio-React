@@ -56,7 +56,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hhealing123/Portfolio-React.git"
+    "url": "git+https://github.com/hhealing123/Portfolio-React-.git"
   },
   "author": "Harvey Lee",
   "license": "ISC",
