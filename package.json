@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hhealing123.github.io/Portfolio-React-",
+  "homepage": "https://hhealing123.github.io/Portfolio-React",
   "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -56,7 +56,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hhealing123/Portfolio-React-.git"
+    "url": "git+https://github.com/hhealing123/Portfolio-React.git"
   },
   "author": "Harvey Lee",
   "license": "ISC",
