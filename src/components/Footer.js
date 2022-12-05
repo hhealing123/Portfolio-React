@@ -1,9 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import navIconHome from '../assets/img/nav-home-icon.svg';
-import navIconAbout from '../assets/img/nav-about-icon.svg';
-import navIconProjects from '../assets/img/nav-projects-icon.svg';
-import navIconResume from '../assets/img/nav-resume-icon.svg';
-import navIconLinks from '../assets/img/nav-links-icon.svg';
+import github from '../assets/img/github.svg';
+import linkedin from '../assets/img/linkedIn.svg';
 
 export const Footer = () => {
   return (
@@ -13,11 +10,8 @@ export const Footer = () => {
           <Col size={12} sm={6} />
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIconHome} alt="Home Icon" /></a>
-              <a href="#"><img src={navIconAbout} alt="About Icon" /></a>
-              <a href="#"><img src={navIconProjects} alt="Projects Icon" /></a>
-              <a href="#"><img src={navIconResume} alt="Resume Icon" /></a>
-              <a href="#"><img src={navIconLinks} alt="Links Icon" /></a>
+              <a href="https://github.com/hhealing123"><img src={github} alt="Home Icon" /></a>
+              <a href="https://linkedin.com/in/harvey-lee-9708"><img src={linkedin} alt="Projects Icon" /></a>
             </div>
             <p>Harvey Lee ◉ 956 566 6693 ◉ hhealing123@gmail.com ◉ Powered by React</p>
           </Col>
