@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/hhealing123/Portfolio-React.git/static/css/main.b48d343a.css",
+    "main.js": "/hhealing123/Portfolio-React.git/static/js/main.844a1f40.js",
+    "static/js/787.fb771931.chunk.js": "/hhealing123/Portfolio-React.git/static/js/787.fb771931.chunk.js",
+    "static/media/world.svg": "/hhealing123/Portfolio-React.git/static/media/world.2b9168cdebf8e8949d53b24a6d88f6ed.svg",
+    "static/media/color-sharp2.png": "/hhealing123/Portfolio-React.git/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/banner-bg.png": "/hhealing123/Portfolio-React.git/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/CentraNo2-Bold.ttf": "/hhealing123/Portfolio-React.git/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/hhealing123/Portfolio-React.git/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/hhealing123/Portfolio-React.git/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/hhealing123/Portfolio-React.git/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img2.jpg": "/hhealing123/Portfolio-React.git/static/media/project-img2.9f83ff1a4eefaf944166.jpg",
+    "static/media/headshot.jpg": "/hhealing123/Portfolio-React.git/static/media/headshot.035a490dfec4a0cf4bbb.jpg",
+    "static/media/nav-resume-icon.svg": "/hhealing123/Portfolio-React.git/static/media/nav-resume-icon.dc3c668f44803c9d4b0621ad30029f5e.svg",
+    "static/media/github.svg": "/hhealing123/Portfolio-React.git/static/media/github.4be5e6f55622faaefdc4f1060a5b9e82.svg",
+    "static/media/nav-projects-icon.svg": "/hhealing123/Portfolio-React.git/static/media/nav-projects-icon.6de181431a09b694357ce7de7c241c47.svg",
+    "static/media/contact-img.svg": "/hhealing123/Portfolio-React.git/static/media/contact-img.81fd2da74169441e6ba17d37ff5b99ae.svg",
+    "static/media/nav-home-icon.svg": "/hhealing123/Portfolio-React.git/static/media/nav-home-icon.7fbb4bb850f1dd40055d94c95710f62a.svg",
+    "index.html": "/hhealing123/Portfolio-React.git/index.html",
+    "static/media/linkedIn.svg": "/hhealing123/Portfolio-React.git/static/media/linkedIn.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "main.b48d343a.css.map": "/hhealing123/Portfolio-React.git/static/css/main.b48d343a.css.map",
+    "main.844a1f40.js.map": "/hhealing123/Portfolio-React.git/static/js/main.844a1f40.js.map",
+    "787.fb771931.chunk.js.map": "/hhealing123/Portfolio-React.git/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b48d343a.css",
+    "static/js/main.844a1f40.js"
+  ]
+}
