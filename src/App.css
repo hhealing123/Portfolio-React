@@ -99,7 +99,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background: linear-gradient(0.25turn, #080808, #7c3e72, #52483d);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
