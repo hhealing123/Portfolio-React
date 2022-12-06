@@ -1,10 +1,10 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Resume = () => {
   return (
-    <section className="project" id="project">
+    <section className="resume" id="resume">
         <Container>
             <Row>
                 <Col size={12}>
