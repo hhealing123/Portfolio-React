@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.jpg";
 import projImg2 from "../assets/img/project-img2.jpg";
 import projImg3 from "../assets/img/project-img3.jpg";
+import projImg4 from "../assets/img/project-img4.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -30,6 +31,13 @@ export const Projects = () => {
       imgUrl: projImg3,
       gitHub: "https://github.com/hhealing123/Ask-the-8-Ball",
       deployedLink: "https://hhealing123.github.io/Ask-the-8-Ball/"
+    },
+    {
+      title: "Workout Tracker",
+      description: "Allows users to create own workout routines and save my workout history to keep track of workout performance.",
+      imgUrl: projImg4,
+      gitHub: "https://github.com/hhealing123/Workout-Tracker",
+      deployedLink: ""
     }
   ];
 
@@ -71,7 +79,9 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second" alt ="Second Phase">
+                      <Row>
                       <p>Coming Soon...</p>
+                        </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third" alt ="Third Phase">
                       <p>Coming Soon...</p>
